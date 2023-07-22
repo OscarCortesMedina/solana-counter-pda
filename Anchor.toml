@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+solana_counter_pda = "7svgaB3eLuznUxY4TVSGniymThy4mUCspCnCdkEpCg1T"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/dante/.config/solana/id.json"
+
+[scripts]
+test = "yarn ts-mocha -t 1000000 tests/**/*.ts"
